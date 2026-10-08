@@ -304,6 +304,7 @@ Item {
     Component.onCompleted: {
         updateGeometry()
         updateWallpaperStackView()
+        refreshWallpaperCapture()
     }
 
     // --- Wallpaper capture ---
